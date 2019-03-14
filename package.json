@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "set PORT=4000 && node server",
+    "test": "node server",
     "start": "node server.js"
   },
   "author": "",
