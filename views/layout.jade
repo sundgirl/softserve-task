@@ -6,7 +6,7 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title CRUD
   body
-  form(method='post', action='/api/v1/add')
+  form(method='post', action='/add')
   table
     tbody
       each student in students
@@ -14,10 +14,10 @@ html(lang="en")
           td= student.firstName
           td= student.lastName
           td 
-            form(method='get', action=`/api/v1/users/edit/${student.id}`)
+            form(method='get', action=`/edit/${student.id}`)
               button(type='submit') Edit
           td 
-            form(method="post", action=`/api/v1/users/${student.id}`)
+            form(method="post", action=`/${student.id}`)
               button(type='submit') Delete
   form(method='post', action='/')
     input(type='text',name='firstName')
