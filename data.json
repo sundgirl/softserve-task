@@ -1,0 +1,44 @@
+{
+  "students" : [
+    {
+      "id" : 1,
+      "firstName" : "Oleksandr",
+      "lastName" : "Borysonok"
+    },
+    {
+      "id" : 2,
+      "firstName" : "Iryna",
+      "lastName" : "Chernomorets’"
+    },
+    {
+      "id" : 3,
+      "firstName" : "Dmytro",
+      "lastName" : "Danylchenko"
+    },
+    {
+      "id" : 4,
+      "firstName" : "Oleksandr",
+      "lastName" : "Hrybovoda"
+    },
+    {
+      "id" : 5,
+      "firstName" : "Olena",
+      "lastName" : "Kachmar "
+    },
+    {
+      "id" : 6,
+      "firstName" : "Oleksii",
+      "lastName" : "Lebediev"
+    },
+    {
+      "id" : 7,
+      "firstName" : "Diana",
+      "lastName" : "Meretska"
+    },
+    {
+      "id" : 8,
+      "firstName" : "Hryhorii",
+      "lastName" : "Shats"
+    }
+  ]
+}
