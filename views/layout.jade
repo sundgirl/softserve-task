@@ -19,7 +19,7 @@ html(lang="en")
           td 
             form(method="post", action=`/api/v1/users/${student.id}`)
               button(type='submit') Delete
-  form(method='post', action='/api/v1/users')
+  form(method='post', action='/')
     input(type='text',name='firstName')
     input(type='text',name='lastName')
     input(type='submit',name='add', value="New")

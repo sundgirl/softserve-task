@@ -6,7 +6,7 @@ html(lang="en")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     title CRUD
   body
-    form(method='post', action='/api/v1/users/edit')
+    form(method='post', action='/edit')
       input(type='hidden' name="id" value=student.id)
       input(type='text' name="firstName" value=student.firstName)
       input(type='text' name="secondName" value=student.lastName)
